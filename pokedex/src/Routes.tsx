@@ -37,7 +37,7 @@ const Routes: React.FC = () => {
                 >
                     <Switch location={location}>
                         <Route path="/pokemons/:id" component={PokemonDetailsPage} />
-                        <Route exact path="/" component={PokemonsPage} />
+                        <Route exact path="/toko-poke" component={PokemonsPage} />
                         <Route exact path="/mypokedex" component={MyPokemonsPage} />
                     </Switch>
                 </animated.div>
